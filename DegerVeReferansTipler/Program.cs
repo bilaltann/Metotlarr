@@ -10,6 +10,8 @@ namespace DegerVeReferansTipler
             // int decimal float, double ,bool --> değer tip.
             //array class interface --> referans tip
             int sayi1 = 10;
+
+
             int sayi2 = 30;
             sayi1 = sayi2; // sayi1'e sayi2 değerini atadi
             sayi2 = 65;
@@ -21,6 +23,7 @@ namespace DegerVeReferansTipler
             sayilar1 = sayilar2; //referans numaralari eşitlendi.
             sayilar2[0] = 999;
             //sayilar1[0] ?? 999
+           
 
             Console.ReadLine();
 
